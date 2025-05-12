@@ -30,13 +30,22 @@ import chromadb
 # -------------------------------------------------------------------------------------
 # Paths & environment
 # -------------------------------------------------------------------------------------
+# 1) Where everything lives in the container
 ROOT_DIR = os.getenv("APP_ROOT", "/workspace")
-DRIVE_DIR = os.path.join(ROOT_DIR, "drive", "MyDrive")
-ADAPTER_PATH = os.path.join(DRIVE_DIR, "mistral-lisa-vanderpump")
-PLAYER_FACTS_JSON = os.path.join(ROOT_DIR, "player_facts.json")
-LISA_FACTS_JSON   = os.path.join(ROOT_DIR, "lisa_db.json")
 
-PROMPT_CACHE_DIR  = os.path.join(ROOT_DIR, "prompt_cache")
+# 2) LoRA adapter on HuggingFace — NOT a local path any more.
+#    Make sure you export HUGGINGFACE_HUB_TOKEN if this repo is private.
+ADAPTER_PATH = os.getenv(
+    "ADAPTER_PATH",
+    "pdawg1998/mistral-lisa-vanderpump"  # <-- your Hub repo ID
+)
+
+# 3) JSON files in your codebase
+PLAYER_FACTS_JSON = os.path.join(ROOT_DIR, "player_facts.json") 
+LISA_FACTS_JSON   = os.path.join(ROOT_DIR, "character_db", "lisa_db.json")
+
+# 4) Prompt‑cache folder (creates if missing)
+PROMPT_CACHE_DIR = os.path.join(ROOT_DIR, "prompt_cache")
 os.makedirs(PROMPT_CACHE_DIR, exist_ok=True)
 
 # -------------------------------------------------------------------------------------
