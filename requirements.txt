@@ -1,0 +1,21 @@
+# Core ML libraries
+torch
+transformers
+accelerate
+bitsandbytes
+peft
+
+# Vector database & embeddings
+chromadb
+sentence-transformers
+
+# API framework
+fastapi
+uvicorn[standard]
+
+# Parsing & validation
+dataclasses-json  # if you switch to dataclass-based models
+pydantic
+
+# Utilities
+python-multipart  # for form/file uploads if needed
