@@ -40,6 +40,8 @@ ADAPTER_PATH = os.getenv(
     "pdawg1998/mistral-lisa-vanderpump"  # <-- your Hub repo ID
 )
 
+HF_TOKEN = os.getenv("HUGGINGFACE_HUB_TOKEN")
+
 # 3) JSON files in your codebase
 PLAYER_FACTS_JSON = os.path.join(ROOT_DIR, "player_facts.json") 
 LISA_FACTS_JSON   = os.path.join(ROOT_DIR, "character_db", "lisa_db.json")
@@ -66,10 +68,15 @@ def load_lisa_head() -> tuple[AutoModelForCausalLM, AutoTokenizer]:
         device_map="auto",
         trust_remote_code=True,
         quantization_config=bnb_cfg,
+        use_auth_token=HF_TOKEN
     )
-    tok = AutoTokenizer.from_pretrained(MODEL_ID, trust_remote_code=True)
+    tok = AutoTokenizer.from_pretrained(
+        MODEL_ID, 
+        trust_remote_code=True,
+        use_auth_token=HF_TOKEN
+        )
     tok.pad_token = tok.eos_token
-    return PeftModel.from_pretrained(base, ADAPTER_PATH), tok
+    return PeftModel.from_pretrained(base, ADAPTER_PATH, use_auth_token=HF_TOKEN), tok
 
 model_chat, tokenizer_chat = load_lisa_head()
 model_sum,  tokenizer_sum  = load_lisa_head()
