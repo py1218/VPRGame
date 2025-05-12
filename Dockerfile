@@ -1,24 +1,24 @@
-# Base image with Python 3.10
-FROM python:3.10-slim
-
-# System dependencies for building & git (for HF code)
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends \
-       git build-essential \
-    && rm -rf /var/lib/apt/lists/*
+# Use a CUDA‑enabled PyTorch runtime
+FROM pytorch/pytorch:2.0.1-cuda11.7-cudnn8-runtime
 
 # Set working directory
 WORKDIR /workspace
 
-# Copy and install Python dependencies
+# System deps for building & Git (for HF code)
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends \
+       git build-essential \
+ && rm -rf /var/lib/apt/lists/*
+
+# Copy & install Python deps
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
 COPY . .
 
-# Expose port (RunPod default)
+# Expose the FastAPI port
 EXPOSE 8080
 
-# Entrypoint
+# Entrypoint launches your start.sh (which runs Uvicorn)
 CMD ["bash", "start.sh"]
