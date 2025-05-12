@@ -1,0 +1,194 @@
+[
+    {
+        "id": "bio-001",
+        "text": "Lisa Vanderpump was born on September 15, 1960, in Dulwich, London. She began ballet lessons at age three and attended the Corona Academy drama school at nine.",
+        "category": "biographical_info",
+        "tags": ["Lisa Vanderpump", "early life", "London", "ballet", "Corona Academy", "Lisa"]
+    },
+    {
+        "id": "bio-002",
+        "text": "Lisa Vanderpump is an English restaurateur, designer, television personality, author, and humanitarian. She is best known for her appearances on the American reality television shows The Real Housewives of Beverly Hills, Vanderpump Rules, and Vanderpump Dogs.",
+        "category": "biographical_info",
+        "tags": ["Lisa Vanderpump", "career", "television", "restaurateur", "Lisa"]
+    },
+    {
+        "id": "bio-003",
+        "text": "Lisa Vanderpump and her husband, Ken Todd, have been entrenched in the restaurant and nightclub industry for over 30 years, owning several successful establishments in Los Angeles.",
+        "category": "biographical_info",
+        "tags": ["Lisa Vanderpump", "Ken Todd", "restaurants", "Los Angeles", "Lisa", "Ken"]
+    },
+    {
+        "id": "bio-004",
+        "text": "Lisa Vanderpump currently lives in her Beverly Hills estate, Villa Rosa, with her husband Ken and her dogs Giggy (a Pomeranian), Puffy (a rescue Pomeranian), and 'Pink Dog' (a pink pomeranian).",
+        "category": "biographical_info",
+        "tags": ["Lisa Vanderpump", "Ken Todd", "Villa Rosa", "home", "dogs", "Lisa", "Ken"]
+    },
+    {
+        "id": "bio-005",
+        "text": "Lisa Vanderpump and Ken Todd have 2 adult children, Max and Pandora.",
+        "category": "biographical_info",
+        "tags": ["Lisa Vanderpump", "Max", "Pandora", "family"]
+    },
+    {
+        "id": "business-001",
+        "text": "Lisa Vanderpump co-owns SUR Restaurant and Lounge, located in West Hollywood, and Villa Blanca, located in Beverly Hills.",
+        "category": "business",
+        "tags": ["Lisa Vanderpump", "restaurants", "SUR", "West Hollywood", "WeHo", "Villa Blanca", "Lisa"]
+    },
+    {
+        "id": "rhobh-001",
+        "text": "Lisa Vanderpump was an original cast member of The Real Housewives of Beverly Hills, appearing from Season 1 through Season 9.",
+        "category": "rhobh_event",
+        "tags": ["Lisa Vanderpump", "RHOBH", "cast member", "Lisa"]
+    },
+    {
+        "id": "rhobh-002",
+        "text": "In Season 9 of RHOBH, Lisa Vanderpump was involved in the 'PuppyGate' scandal, which led to tensions with fellow cast members and her eventual departure from the show.",
+        "category": "rhobh_event",
+        "tags": ["Lisa Vanderpump", "PuppyGate", "RHOBH", "Season 9", "Lisa"]
+    },
+    {
+        "id": "rhobh-003",
+        "text": "Lisa Vanderpump has stated that she would not want to return to The Real Housewives of Beverly Hills, citing her busy schedule and lack of close relationships with the current cast.",
+        "category": "rhobh_event",
+        "tags": ["Lisa Vanderpump", "RHOBH", "return", "cast", "Lisa"]
+    },
+    {
+        "id": "castbio-001",
+        "text": "Stassi Schroeder is a server at SUR known for her sharp wit and is often referred to as the 'queen bee' of the restaurant. Stassi is known for her work ethic and charm but she also has a tendency to cause friction within the staff.",
+        "category": "cast_bio",
+        "tags": ["Stassi Schroeder", "server", "SUR", "Stassi"]
+    },
+    {
+        "id": "castbio-0011",
+        "text": "Stassi Schroeder is currently in a relationship with Jax Taylor. They are constantly fighting and their relationship often brings drama to SUR.",
+        "category": "cast_bio",
+        "tags": ["Stassi Schroeder", "Jax Taylor", "relationships", "boyfriend", "girlfriend", "dramatic", "Stassi", "Jax"]
+    },
+    {
+        "id": "castbio-0012",
+        "text": "Stassi Schroeder is best friends with Katie Maloney and Kristen Doute. They are extremely clique-y and like to exclude Scheana Shay and make her time at SUR difficult.",
+        "category": "cast_bio",
+        "tags": ["Stassi Schroeder", "Katie Maloney", "Kristen Doute", "Scheana Shay", "friendships", "bullying", "frenemies", "Stassi", "Katie", "Kristen", "Scheana"]
+    },
+    {
+        "id": "castbio-0013",
+        "text": "Stassi Schroeder's favorite food is SUR's famous deep-fried goat cheese balls.",
+        "category": "cast_bio",
+        "tags": ["Stassi Schroeder", "food", "goat cheese balls", "SUR", "Stassi"]
+    },
+    {
+        "id": "castbio-002",
+        "text": "Tom Sandoval is a bartender at SUR, known for his attention to detail and dedication to his appearance. He is also an aspiring actor and musician. He is often referred to by his last name, Sandoval, to not mix him up with Tom Schwartz, his best friend.",
+        "category": "cast_bio",
+        "tags": ["Tom Sandoval", "SUR", "bartender", "Sandoval", "actor", "musician", "Sandoval", "Tom"]
+    },
+    {
+        "id": "castbio-0021",
+        "text": "Tom Sandoval and Kristen Doute are currently in a relationship.",
+        "category": "cast_bio",
+        "tags": ["Tom Sandoval", "Kristen Doute", "relationship", "boyfriend", "girlfriend", "Tom", "Kristen"]
+    },
+    {
+        "id": "castbio-0022",
+        "text": "Tom Sandoval, Tom Schwartz, and Jax Taylor are all very close friends.",
+        "category": "cast_bio",
+        "tags": ["Tom Sandoval", "Jax Taylor", "Tom Schwartz", "friends", "friendships", "Tom", "Sandoval", "Schwartz", "Jax"]
+    },
+    {
+        "id": "castbio-003",
+        "text": "Scheana Shay is a relatively new server at SUR and an aspiring popstar. She is eager to please, hardworking, and professional but also somewhat naive. She is currently dating a man named Shay",
+        "category": "cast_bio",
+        "tags": ["Scheana Shay", "SUR", "music", "Scheana"]
+    },
+    {
+        "id": "castbio-0031",
+        "text": "Scheana Shay had an affair with Eddie Cibrian, an actor. At the time, he was married to Brandi Glanville, who is friends with Lisa Vanderpump. The female servers at SUR tend not to trust her because of this.",
+        "category": "cast_bio",
+        "tags": ["Scheana Shay", "Scheana", "relationships", "Eddie Cibrian", "Brandi Glanville", "affair", "cheating"]
+    },
+    {
+        "id": "castbio-0032",
+        "text": "Scheana Shay has an adversarial relationship with Stassi Schroeder. Stassi often puts Scheana down and refuses to be friends with her",
+        "category": "cast_bio",
+        "tags": ["Scheana Shay", "Stassi Schroeder", "friendships", "enemies", "fighting", "Stassi", "Scheana"]
+    },
+    {
+        "id": "castbio-005",
+        "text": "Katie Maloney is a server at SUR. Katie is more level-headed than Stassi or Kristen, but still very much under Stassi’s influence. She has a tendency to act volatile while drunk. Her friends call her drunk alter ego Tequila Katie",
+        "category": "cast_bio",
+        "tags": ["Katie Maloney", "SUR", "server", "Katie"]
+    },
+    {
+        "id": "castbio-0051",
+        "text": "Katie Maloney and Tom Schwartz are currently in a relationship.",
+        "category": "cast_bio",
+        "tags": ["Katie Maloney", "Tom Schwartz", "relationships", "boyfriend", "girlfriend"]
+    },
+    {
+        "id": "castbio-006",
+        "text": "Jax Taylor, whose real name is Jason Cauchi, is one of SUR’s bartenders known for his rugged good looks, charm, and reputation as a ladies' man. He was former model. He is not the best bartender and messes up drinks frequently.",
+        "category": "cast_bio",
+        "tags": ["Jax Taylor", "SUR", "bartender", "model", "Jax"]
+    },
+    {
+        "id": "castbio-007",
+        "text": "Kristen Doute, a.k.a. Crazy Kristen, is one of Lisa’s long-standing servers at SUR. She’s known for her loyalty to Stassi and her fiery, stubborn personality. Kristen can be hardworking but is often distracted by drama, particularly when it comes to her friendships and relationship issues.",
+        "category": "cast_bio",
+        "tags": ["Kristen Doute", "SUR", "server", "crazy", "Kristen Doute"]
+    },
+    {
+        "id": "castbio-008",
+        "text": "Tom Schwartz is a friendly, good-natured model and aspiring actor who occasionally bartends at SUR but isn’t officially employed there. Tom is charming and well-liked by everyone but his laid-back attitude often translates into lack of ambition and reliability. He is often referred to by his last name, Schwartz, to not mix him up with Tom Sandoval, his best friend.",
+        "category": "cast_bio",
+        "tags": ["Tom Schwartz", "SUR", "bartender", "model", "Schwartz"]
+    },
+    {
+        "id": "castbio-009",
+        "text": "Peter Madrigal is the manager of SUR and one of Lisa’s most trusted employees. Professional, hardworking, and responsible, Peter is well-respected by the staff and seen as somewhat of a big brother figure. He occasionally socializes with the group but tends to remain more neutral in their conflicts.",
+        "category": "cast_bio",
+        "tags": ["Peter Madrigal", "SUR", "manager", "Peter"]
+    },
+    {
+        "id": "castbio-010",
+        "text": "Frank Herlihy is a bartender at SUR. Frank is confident and flirtatious but also arrogant and abrasive. He has a crush on Stassi Schroeder.",
+        "category": "cast_bio",
+        "tags": ["Frank Herlihy", "SUR", "bartender", "Stassi Schroeder"]
+    },
+    {
+        "id": "castbio-011",
+        "text": "Ken Todd is Lisa’s husband and business partner. Ken is respected for his business acumen and unwavering support and loyalty towards Lisa. He is often calm and amicable but can get quite angry when people disrespect Lisa",
+        "category": "cast_bio",
+        "tags": ["Ken Todd", "SUR", "husband", "family", "owner", "Ken", "relationships", "Lisa"]
+    },
+    {
+        "id": "castbio-012",
+        "text": "Guillermo Zapato is the co-owner of SUR and a trusted business partner of Lisa Vanderpump. He is originally from Argentina",
+        "category": "cast_bio",
+        "tags": ["Guillermo Zapato", "SUR", "husband", "family", "owner", "Guillermo"]
+    },
+    {
+        "id": "castbio-013",
+        "text": "Pandora Vanderpump-Sabo is Lisa and Ken's daughter. Though Pandora is not involved in the drama at SUR, she is friend's with Stassi Schroeder, who writes a column for her blog called Divine Addiction.",
+        "category": "cast_bio",
+        "tags": ["Pandora", "Pandora Vanderpump-Sabo", "family", "daughter", "Stassi Schroeder"]
+    },
+    {
+        "id": "surfact-001",
+        "text": "SUR Restaurant and Lounge, commonly known as Sexy Unique Restaurant, is located in West Hollywood. SUR is a high-end restaurant that serves South-European food and various cocktails.",
+        "category": "sur_fact",
+        "tags": ["SUR", "Sexy Unique Restaurant", "restaurant"]
+    },
+    {
+        "id": "surfact-002",
+        "text": "SUR is well known for their deep-fried goat cheese balls.",
+        "category": "sur_fact",
+        "tags": ["SUR", "Sexy Unique Restaurant", "restaurant", "food", "goat cheese balls"]
+    },
+    {
+        "id": "surfact-003",
+        "text": "SUR's signature cocktail is the Pumptini, a vodka martini infused with grapefruit.",
+        "category": "sur_fact",
+        "tags": ["SUR", "cocktail", "drinks", "Pumptini"]
+    }
+]
