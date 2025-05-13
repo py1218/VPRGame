@@ -1,8 +1,8 @@
 # Use a CUDA‑enabled PyTorch runtime
-FROM pytorch/pytorch:2.0.1-cuda11.7-cudnn8-runtime
+FROM python:3.10-slim
 
 # Set working directory
-WORKDIR /workspace
+WORKDIR /
 
 # System deps for building & Git (for HF code)
 RUN apt-get update \
@@ -15,7 +15,7 @@ COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
-COPY . .
+COPY app.py /
 
 # Expose the FastAPI port
 EXPOSE 8080
