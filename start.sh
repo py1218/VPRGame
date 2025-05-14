@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 set -e
-cd /workspace
-exec uvicorn app:app --host 0.0.0.0 --port ${PORT:-8080}
+exec python runpod_worker.py          # runpod.serverless.start fires in the script
