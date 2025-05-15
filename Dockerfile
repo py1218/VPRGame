@@ -22,7 +22,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 # • runpod_worker.py      (main serverless handler / FastAPI)
 # • start.sh              (launch script)
 # • character_db/lisa_db.json  (RAG seed data)
-COPY runpod_worker.py start.sh character_db/ ./    
+COPY runpod_worker.py ./runpod_worker.py
+COPY start.sh        ./start.sh
+COPY character_db/   ./character_db/   
 
 # Make sure the launcher is executable
 RUN chmod +x /workspace/start.sh
