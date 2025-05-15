@@ -8,6 +8,7 @@ peft
 # RAG / memory
 chromadb
 sentence-transformers
+sentencepiece
 
 # serverless runtime
 runpod
